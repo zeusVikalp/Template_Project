@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0ps;
+    box-sizing: border-box;
+}
+.main-div{
+    display: grid;
+}
+
+.main-div img{
+    width: 500px;
+    height: 300px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    border: 5px;
+    border-radius: 50px;
+    border-color: green;
+    grid-template-columns: auto;
+}
